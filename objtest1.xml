@@ -25,7 +25,7 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_right" id="318"></block>
+          <block type="movement_left" id="347"></block>
         </statement>
         <value name="IF1">
           <block type="logic_compare" id="335" inline="true">
@@ -43,7 +43,7 @@
           </block>
         </value>
         <statement name="DO1">
-          <block type="movement_left" id="347"></block>
+          <block type="movement_right" id="318"></block>
         </statement>
         <statement name="ELSE">
           <block type="movement_forward" id="308"></block>

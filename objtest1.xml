@@ -45,14 +45,11 @@
         <statement name="DO1">
           <block type="movement_left" id="347"></block>
         </statement>
-        <statement name="ELSE">
-          <block type="movement_forward" id="308"></block>
-        </statement>
         <next>
           <block type="robot_delay" id="100" inline="true">
             <value name="DELAY">
               <block type="math_number" id="101">
-                <field name="NUM">200</field>
+                <field name="NUM">5000</field>
               </block>
             </value>
           </block>
@@ -63,4 +60,5 @@
       <block type="movement_stop" id="328"></block>
     </next>
   </block>
+  <block type="movement_forward" id="308" x="336" y="254"></block>
 </xml>
